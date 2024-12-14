@@ -57,10 +57,10 @@ Plot the confusion matrix to evaluate the model’s performance.
 Step 8: Test the Model
 After training is complete, evaluate the model on the test set to check its final performance.
 
+Step 9: Save the Model
+Once we are done with training the model, save it to disk so that you can load it later without retraining.
+
 # Results Discussion:
 
 ResNet Validation Accuracy: 0.7863
 VGGNet Validation Accuracy: 0.5434
-
-Step 9: Save the Model
-Once we are done with training the model, save it to disk so that you can load it later without retraining.
