@@ -12,7 +12,7 @@ The number of images per category varies, with about 40 to 800 images in each ca
 Images are of variable sizes, with most images being medium resolution.
 Caltech-101 is widely used for training and testing in the field of machine learning, particularly for object recognition tasks.
 
-# INstruction to execute
+# Instruction to execute
 
 Run each code cell one by one
 Upload the Kaggle Json file provided while executing the below code
