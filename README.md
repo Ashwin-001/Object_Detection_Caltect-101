@@ -12,8 +12,14 @@ The number of images per category varies, with about 40 to 800 images in each ca
 Images are of variable sizes, with most images being medium resolution.
 Caltech-101 is widely used for training and testing in the field of machine learning, particularly for object recognition tasks.
 
-# Procedure to execute
-Run each cell in the ipynb file, upload the kaggle.json file to download the dataset and execute the rest of the cells sequentially. 
+# INstruction to execute
+
+Run each code cell one by one
+Upload the Kaggle Json file provided while executing the below code
+from google.colab import files
+files.upload()
+Now the dataset will be loaded in your colab environment
+Execute the rest of the code in ipynb file.
 
 # Overall Explanation:
 Step 1: Load and Split the Dataset
@@ -50,6 +56,11 @@ Plot the confusion matrix to evaluate the model’s performance.
 
 Step 8: Test the Model
 After training is complete, evaluate the model on the test set to check its final performance.
+
+# Results Discussion:
+
+ResNet Validation Accuracy: 0.7863
+VGGNet Validation Accuracy: 0.5434
 
 Step 9: Save the Model
 Once we are done with training the model, save it to disk so that you can load it later without retraining.
